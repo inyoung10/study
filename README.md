@@ -17,3 +17,4 @@
 - git add (확정본을 만들기 위해 Stage로 파일을 보내기)
 - git commit -m (Stage에 있는 파일의 확정본 생성하기)
 - git log (변경 이력을 확인할 때)
+- git tag (태그를 조회하거나 추가하거나 삭제하기)
