@@ -24,4 +24,5 @@
 [README](README.md)
 
 ### 이미지
-![Multi Campus](assetss/logo.png "멀티캠퍼스 로고")
+![Multi Campus](assets/logo.png "멀티캠퍼스 로고")   
+[![Multi Campus](/assets/logo.png)](https://www.multicampus.com/main)
