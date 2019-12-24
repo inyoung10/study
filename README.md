@@ -21,3 +21,56 @@
 
 ### 마크다운 문법 학습
 [마크다운 정리](markdown.md)
+
+## 2일차
+HTML 관련 다양한 명령어를 실습을 통해 학습을 했습니다.
+- DTD 선언(문서형 정의) : 
+```html
+<!DOCTYPE html>
+```
+- 제목과 단락 요소
+```html
+<h1> ... </h1>
+<p> ... </p>
+```
+- 텍스트 레벨의 시맨틱 요소
+```html
+<strong> ... </strong>
+<em> ... </em>
+<abbr> ... </abbr>
+```
+- 목록 요소
+```html
+<ul> ... </ul>
+<ol> ... </ol>
+<dl> ... </dl>
+```
+- 하이퍼링크와 이미지
+```html
+<a> ... </a>
+<img>
+```
+- 테이블 요소
+```html
+<table>
+  <tr>
+    <th> ... </th>
+    <td> ... </td>
+  </tr>
+</table>
+```
+- 폼 관련 요소
+```html
+<form> ... </form>
+<fieldset> ... </fieldset>
+<legend> ... </legend>
+<label> ... <label>
+<input type="?">
+<textarea> ... </textarea>
+<select> ... </select>
+<button> ... </button>
+```
+-인라인 프레임
+```html
+<iframe src="?"></iframe>
+```
