@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.heading{    /* .(클래스이름)으로 시작하면 클래스*/
+   background-color: yellow;
+   width: 500px;
+   height: 200px;  
+   margin-bottom: 30px;
+}
+.subject{
+  background-color: skyblue;
+  width: 200px;
+  border : 10px solid black;
+  padding : 20px 50px 100px 150px;  /* border 선 기준 안쪽 여백 : padding */
+  margin: 50px auto 50px 50px;
+}
+.note{
+  background-color: pink;
+  width: 300px;
+  height: 150px;
+  overflow: auto;   /* 보험 약관 표현할 떄 */
+}
+.note em{  /* 클래스 + 하위 요소의 조합 */
+  /* display: block;  블록은 한 줄 다 차지 */
+  display: inline-block;
+  background-color: lime;
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+}
