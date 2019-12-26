@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  background-color: #fff;
+  background-image: linear-gradient(rgba(255,0,0,0.35), rgba(0,255,0,0.35)), url(../assets/bg.png) ;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-attachment: fixed;
+}
+.container{
+  /* height: 200vh; */
+  background-color: yellow;
+  overflow: hidden;
+}
+.sidebar{
+  width: 30%;
+  background-color: pink;
+  height: 50vh;
+  float: left;
+}
+.content{
+  width: 60%;
+  background-color: lime;
+  height: 50vh;
+  float: right;
+}
