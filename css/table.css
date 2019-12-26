@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+table {
+  border-spacing: 0;  /* 이렇게 하면 가운데 겹치는 선들만 두껍게 보임 */
+  border-collapse: collapse;  /* 겹치는 선들을 병합해서 보여줌 -> 두껍게 보이지 않음 */
+}
+th, td {
+  border : 1px solid #000;
+}
