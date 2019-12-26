@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+}
+.container{
+  background-color: silver;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+.header{
+  background-color: yellow;
+  height: 15vh;
+  width: 650px;
+}
+.navigation{
+  background-color: lime;
+  height: 10vh;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sidebar{
+  background-color: orange;
+  height: 70vh;
+  width: 300px;
+}
+.content{
+  background-color: skyblue;
+  height: 70vh;
+  width: 700px;
+}
+.footer{
+  background-color: pink;
+  height: 15vh;
+  width: 1000px;
+}
