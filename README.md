@@ -78,3 +78,17 @@ _blank를 지정하면 된다.
 ```html
 <iframe src="?"></iframe>
 ```
+
+## 3일차
+CSS 관련 다양한 속성을 실습을 통해 학습했습니다.
+
+- CSS 개념
+- CSS 적용방법
+- 상속과 겹침
+- CSS 선택자
+- 텍스트 관련 속성
+- CSS 박스모델
+- flex 박스
+- position과 float
+- 배경 관련 속성
+- 기타 다양한 속성(list-style 등)
