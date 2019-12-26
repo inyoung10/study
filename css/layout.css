@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+}
+.container{
+  background-color: silver;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  /* 줄바꿈 허용 */
+  width: 1000px;
+  margin: 0 auto;
+}
+.header{
+  background-color: yellow;
+  height: 15vh;
+  width: 650px;
+  order: 2;
+}
+.navigation{
+  background-color: lime;
+  height: 10vh;
+  width: 150px;
+  margin-right: auto;
+  order: 1;
+}
+.sidebar{
+  background-color: orange;
+  height: 70vh;
+  width: 300px;
+  order: 4;
+}
+.content{
+  background-color: skyblue;
+  height: 70vh;
+  width: 700px;
+  order: 3;
+}
+.footer{
+  background-color: pink;
+  height: 15vh;
+  width: 1000px;
+  order: 5;
+}
