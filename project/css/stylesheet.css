@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+ ::selection {
+  background: #233d84;
+  color: #ffffff;
+ }
+
+ /* 숨김 콘텐츠 */
+ .a11y-hidden{
+   position: absolute !important;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   margin: -1px;
+   clip: rect(0,0,0,0);
+   clip-Path: polygon(0 0, 0 0, 0 0);
+ }
+
+html{
+  font-size: 10px;
+}
