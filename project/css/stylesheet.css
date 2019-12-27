@@ -106,5 +106,49 @@ nav a {
 
  /* 메인 메뉴 */
  .app-navigation{
-   display: none;
+  background: hsla(225, 57%, 10%, 0.9);
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 60px;
+  color: #fff;
+  transition: all 0.4s cubic-bezier(0.66, -0.01, 0.3, 0.99);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  transform: translateX(105vw);
+ }
+ .app-navigation.is-active {
+  transform: translateX(0);
+  transition: all 0.4s cubic-bezier(0.66, -0.01, 0.3, 0.99);
+ }
+ .app-navigation li {
+  border-bottom: 1px solid hsla(225, 57%, 30%, 0.5);
+ }
+ .app-navigation a {
+  display: block;
+  padding: 1em;
+  transition: all 0.4s ease;
+ }
+ .app-navigation a:hover, .app-navigation a:focus {
+  background: #2e437c;
+ }
+ /* 메뉴 닫기 버튼 */
+ .app-navigation .button.is-close-menu {
+  position: absolute;
+  z-index: 10;
+  top: 15px;
+  right: 15px;
+  padding: 20px;
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+  font-size: 4rem;
+  transition: all 0.4s ease;
+ }
+
+ .app-navigation .button.is-close-menu:hover,
+ .app-navigation .button.is-close-menu:focus{
+  transform: scale(1.2);
  }
