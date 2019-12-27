@@ -159,14 +159,12 @@ nav a {
 }
  /* 이디야 음료 */
  .ediya-menu{
-   background: yellow;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
  }
  .ediya-menu__item{
-   border: 1px solid blue;
    flex: 1 1 40%;
    margin: 10px;
    position: relative;
@@ -228,4 +226,52 @@ nav a {
   display: block;
   font-size: 1.4rem;
   color: #737373;
+ }
+ .ediya-menu__item--multi-column {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  column-gap: 20px;
+  column-rule: 1px solid #999;
+  padding: 1em 1.5em;
+  background: #f8f8f8;
+ }
+ .ediya-menu__item--multi-column.is-2{
+   column-count: 2;
+ }
+ .ediya-menu__item--detail dl {
+  line-height: 1.6;
+  font-size: 1.3rem;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .ediya-menu__item--detail dt {
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+ }
+ .ediya-menu__item--detail dd {
+  float: right;
+  width: 40%;
+  margin-left: 0;
+ }
+ .ediya-menu__item--detail .button.is-close-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 9px 15px;
+  font-size: 2.4rem;
+  background: transparent;
+  transition: all 0.3s ease;
+ }
+ 
+ .ediya-menu__item--detail .button.is-close-panel:hover {
+  background: #f3f3f3;
+ }
+ @media screen and (max-width: 520px) {
+   html{
+     font-size: 12px;
+   }
  }
